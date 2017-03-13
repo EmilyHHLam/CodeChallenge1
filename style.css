@@ -1,0 +1,9 @@
+.smallContainer {
+  width: 200px;
+  height:100px;
+  background-color: salmon;
+}
+
+.switchColor {
+  background-color: yellow;
+}
