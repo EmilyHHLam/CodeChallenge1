@@ -1,11 +1,20 @@
+
 .smallContainer {
   width: 200px;
   height:100px;
   background-color: salmon;
+
 }
 
 .switchColor {
   /*width: 200px;
   height:100px;*/
   background-color: yellow;
+}
+p {
+  text-align: center;
+}
+
+div .smallContainer {
+  text-align: center;
 }
