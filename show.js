@@ -9,7 +9,7 @@ $(document).ready(function(){
     $('.container').append("<div class='smallContainer'></div>");
     var $el = $('.container').children().last();
     $el.append("<p></p><p>" + current + "</p>");
-    $el.append("<button class='swap'>swap color</button>");
+    $el.append("<button class='swap'>swap color</button>&nbsp;&nbsp;");
     $el.append("<button class='delete'>delete</button>");
 
   });
@@ -17,8 +17,8 @@ $(document).ready(function(){
 
 
   $('.container').on("click", ".swap", function(){
-    //$(this).parent().addClass('switchColor');
-     $(this).parent().parent().toggleClass('switchColor');
+
+     $(this).parent().toggleClass('switchColor');
      console.log("swap");
   });
 
